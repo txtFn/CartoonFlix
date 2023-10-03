@@ -1,0 +1,135 @@
+:root {
+    --primary-color: #4682A9;
+    --secondary-color: #749BC2;
+    --accent-color: #91C8E4;
+    --white: #F6F4EB;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.secondary-text {
+    color: var(--secondary-color);
+}
+
+.custom-accent {
+    background-color: var(--accent-color);
+}
+
+.custom-accent-text {
+    color: var(--accent-color);
+}
+
+.custom-white {
+    background-color: var(--white);
+}
+
+.custom-white-text {
+    color: var(--white);
+}
+
+body {
+    background-color: var(--white);
+}
+
+nav a span {
+    text-shadow: 2px 2px 10px #000;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+.mt-3 {
+    margin-top: 30px;
+}
+
+.mt-4 {
+    margin-top: 40px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}
+
+.mt-6 {
+    margin-top: 60px;
+}
+
+.container .homebanner-title a.btn {
+    background-color: var(--primary-color);
+}
+
+.container .homebanner-title a.btn:hover {
+    background-color: var(--accent-color);
+}
+
+.homebanner {
+    height: 100vh;
+    background-image: url('/img/index/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+}
+
+.homebanner-title {
+    padding: 10%;
+    text-shadow: -1px 4px 4px black;
+}
+
+.homebanner-title p {
+    line-height: 1.15;
+}
+
+.homebanner-title h2 {
+    line-height: 1;
+}
+
+/* Star Cartoon */
+.star {
+    width: 100%;
+    position: absolute;
+    top: 13%;
+}
+
+.star h3 {
+    text-shadow: 2px 2px 3px #000;
+}
+
+
+@media screen and (max-width:1080px) {
+    .homebanner {
+        height: 80vh;
+    }
+
+    .homebanner-title p {
+        font-size: 1rem;
+    }
+
+    .homebanner-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .star h3 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .parallax-container {
+        height: 250px;
+    }
+}

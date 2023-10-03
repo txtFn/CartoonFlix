@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartoonFlix - Home</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/39c1e8bf9f.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome cdjns -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<body>
+    <nav class="homebanner primary">
+        <div class="container">
+            <div class="navbar-fixed transparent">
+                <a href="index.html" class="brand-logo left mt-1"><span>CartoonFlix</span></a>
+                <!-- Sidenav Trigger -->
+                <a href="#" data-target="sidenavOpen" class="sidenav-trigger right"><i
+                        class="fa-solid fa-bars mt-1"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <!-- Modal Trigger -->
+                    <li><a href="#modal1"><i class="material-icons mt-1 modal-trigger"
+                                data-target="modal1">search</i></a></li>
+                    <li><a href="#account"><i class="material-icons mt-1">account_circle</i></a></li>
+                </ul>
+            </div>
+            <!-- Sidenav Content -->
+            <ul class="sidenav primary" id="sidenavOpen">
+                <div class="container mt-2">
+                    <li><a href="#account" class="white-text"><i
+                                class="material-icons white-text">account_circle</i>Login/Sign-Up</a>
+                    </li>
+                    <li>
+                        <!-- Mondal Trigger -->
+                        <a href="#modal1" class="white-text">
+                            <i class="material-icons white-text modal-trigger" data-target="modal1">search</i>
+                            Search
+                        </a>
+                    </li>
+                </div>
+            </ul>
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content black-text">
+                    <div class="input-field">
+                        <i class='material-icons prefix'>search</i>
+                        <input id="icon_prefix" type="text" placeholder="Search Cartoons">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="homebanner-title center">
+                <h2 class="custom-white-text m"><span class="yellow-text">Watch & Stream</span> Cartoons,<br> Anywhere
+                    for FREE!</h2>
+                <p class="flow-text custom-white-text">
+                    Welcome to CartoonFlix, a colorful wonderland of animated delights! Dive into an extensive library
+                    featuring a
+                    diverse range of classic and contemporary cartoons, tailored to delight audiences of all ages. Our
+                    platform offers an
+                    intuitive, kid-friendly interface for easy navigation and discovery, ensuring that children can
+                    independently explore
+                    their favorite animated shows. CartoonFlix provides a safe and entertaining space where laughter and
+                    excitement await
+                    around every corner.
+                    Join us on a playful journey through the world of animation!
+                </p>
+                <a href="#cartoons" class="waves-effect waves-light btn sbtn-large">Browse</a>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+
+    <div id="cartoons" class="container section scrollspy">
+        <!-- Disney Cartoons -->
+        <div class="disney">
+            <div class="row">
+                <div class="col s9 offset-m5 offset-s3">
+                    <img src="img/index/disney.png" alt="" class="responsive-img" style="width: 150px;">
+                </div>
+            </div>
+
+            <div class="divider"></div>
+            <!-- Disney Cartoons -->
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/Star.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Star vs The Forces of Evil
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="star.html" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Star vs The Forces of Evil
+                            </span>
+                            <p>
+                                Intergalactic warrior Star Butterfly arrives on Earth to live with the Diaz family. She
+                                continues to battle villains
+                                throughout the universe and high school, mainly to protect her extremely powerful wand,
+                                an object that still confuses
+                                her.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/PhineasFerb.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Phineas and Ferb
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="phineas.html" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Phineas and Ferb
+                            </span>
+                            <p>
+                                Each day, two kindhearted suburban stepbrothers on summer vacation embark on some grand
+                                new project, which annoys their
+                                controlling sister, Candace, who tries to bust them. Meanwhile, their pet platypus plots
+                                against evil Dr. Doofenshmirtz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/GravityF.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Gravity Falls
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="gravity.html" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                <i class="material-icons right">close</i>
+                                Gravity Falls
+                            </span>
+                            <p>
+                                Twin brother and sister Dipper and Mabel Pines are in for an unexpected adventure when
+                                they spend the summer helping
+                                their great uncle Stan run a tourist trap in the mysterious town of Gravity Falls,
+                                Oregon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/StarWars.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Star Wars Rebels
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="starwars.html" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Star Wars Rebels
+                            </span>
+                            <p>
+                                Set between the events of Star Wars: Episodes III and IV, the story unfolds during a
+                                dark time when the evil Galactic
+                                Empire is tightening its grip of power on the galaxy. Imperial forces have occupied a
+                                remote planet and are ruining the
+                                lives of its people. The motley but clever crew of the starship Ghost — cowboy Jedi
+                                Kanan, ace pilot Hera, street-smart
+                                teenager Ezra, the “muscle” Zeb, warrior firebrand Sabine, and cantankerous old
+                                astromech droid Chopper — is among a
+                                select few who are brave enough to stand against the Empire. Together, they will face
+                                threatening new villains,
+                                encounter colorful adversaries, embark on thrilling adventures, and become heroes with
+                                the power to ignite a rebellion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/DuckTales.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                DuckTales
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                DuckTales
+                            </span>
+                            <p>
+                                The adventures of billionaire Scrooge McDuck and his nephews Huey, Dewey and Louie,
+                                their
+                                famous uncle Donald Duck,
+                                pilot extraordinaire Launchpad, Mrs. Beakly, Webby and Roboduck. Adventures and hidden
+                                treasures are everywhere, in
+                                their hometown Duckburg and all around the world.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/Avengers.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                The Avengers: Earth's Mightiest Heroes
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                The Avengers: Earth's Mightiest Heroes
+                            </span>
+                            <p>
+                                When the powers of a single hero are not enough to save the world, the world's greatest
+                                heroes—Iron Man, Thor, Captain
+                                America, The Hulk, Ant-Man/Giant Man and Wasp—assemble to form the Avengers.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/Spider-Man.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Marvel's Ultimate Spider-Man
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Marvel's Ultimate Spider-Man
+                            </span>
+                            <p>
+                                While being trained by S.H.I.E.L.D., Spider-Man battles evil with a new team of teen
+                                colleagues.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/GoG.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Marvel's Guardians of the Galaxy
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Marvel's Guardians of the Galaxy
+                            </span>
+                            <p>
+                                Peter Quill is Star-Lord, the brash adventurer who, to save the universe from its
+                                greatest threats, joins forces with a
+                                quartet of disparate misfits — fan-favorite Rocket Raccoon, a tree-like humanoid named
+                                Groot, the enigmatic, expert
+                                fighter Gamora and the rough edged warrior Drax the Destroyer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <br><br><br><br>
+
+        <!-- Cartoon Network -->
+        <div class="cartoonnetwork">
+            <div class="row">
+                <div class="col s7 offset-m5 offset-s3">
+                    <img src="img/index/cartoonnet.png" alt="" class="responsive-img" style="width: 180px;">
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/DexLab.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Dexter's Laboratory
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Dexter's Laboratory
+                            </span>
+                            <p>
+                                Sleep tight, America! Your fate lies safely in the hands of Dexter, a child genius who
+                                whips up dazzling, world-saving
+                                inventions in his secret laboratory. Big sister Dee Dee frequently wrecks his
+                                experiments, but his bigger nemesis is
+                                Mandark, his brilliant rival at Huber Elementary School. Mom and Dad, of course, have no
+                                idea what their little angel is
+                                up to.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/EdEd.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Ed, Edd n Eddy
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Ed, Edd n Eddy
+                            </span>
+                            <p>
+                                Like any boys trying to survive their adolescence, Ed, Edd and Eddy are as clueless
+                                about
+                                girls as everything else. Eddy
+                                may not be the brains of the trio, but he's the "idea guy," always scheming and dragging
+                                his buddies along. Ed, Edd and
+                                Eddy go on summertime adventures involving part-time jobs, treehouses and of course,
+                                girls.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/adventure.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Adventure Time
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Adventure Time
+                            </span>
+                            <p>
+                                Twelve- year-old Finn battles evil in the Land of Ooo. Assisted by his magical dog,
+                                Jake,
+                                Finn roams the Land of Ooo
+                                righting wrongs and battling evil. Usually that evil comes in the form of the Ice King,
+                                who is in search of a wife. He's
+                                decided he should wed Princess Bubblegum, though she doesn't want to marry him. Still,
+                                he persists in trying to steal
+                                her away, and Finn and Jake, along with Lady Raincorn (a cross between a unicorn and a
+                                rainbow) do their best to keep
+                                her from harm.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/gumb.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                The Amazing World of Gumball
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                The Amazing World of Gumball
+                            </span>
+                            <p>
+                                No, this animated series is not about anthropomorphic chewing gum, it's about a young
+                                cat
+                                named Gumball Watterson.
+                                Gumball has a penchant for getting into trouble, often resulting from schemes he comes
+                                up with, but he never seems to
+                                learn his lesson. Gumball's best friend is a fish named Darwin, who used to be the
+                                family pet until he grew legs and
+                                became part of the family. Gumball resents his younger sister, Anais, because she is the
+                                smartest member of the family.
+                                Gumball's mother is the breadwinner in the family, working long hours at the rainbow
+                                factory, and his father stays at
+                                home watching TV and playing video games.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/CampLaz.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Camp Lazlo
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Camp Lazlo
+                            </span>
+                            <p>
+                                Camp Kidney isn't quite sure what to do with its newest Bean Scouts. Lazlo's a
+                                free-spirited monkey and his Jelly Cabin
+                                bunkmates Clam the albino rhino and Raj the elephant are always up to something much to
+                                the disappointment of
+                                Scoutmaster Lumpus. Lumpus is determined to make sure nobody has fun at camp. Even the
+                                Squirrel Scout girls from across
+                                Leakey Lake join in the adventure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/SamJ.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Samurai Jack
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Samurai Jack
+                            </span>
+                            <p>
+                                After being sent into the future by evil wizard Aku, young samurai Jack makes a quest to
+                                return to the past and undo the
+                                destruction caused by the wizard. Along the way Jack enlists allies to defeat some of
+                                Aku's henchmen and other villains
+                                before getting to the top dog to defeat him and find the portal that can return Jack to
+                                his own time. `Samurai Jack' was
+                                created by Genndy Tartakovsky, who had previously created `Dexter's Laboratory', one of
+                                Cartoon Network's first original
+                                series.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/Steven.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Steven Universe
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Steven Universe
+                            </span>
+                            <p>
+                                The Crystal Gems are a team of magical beings who are the self-appointed guardians of
+                                the
+                                universe. Half-human, half-Gem
+                                hero Steven is the "little brother" of the group. The goofball is learning to save the
+                                world using the magical powers
+                                that come from his bellybutton and he goes on magical adventures with the rest of the
+                                Crystal Gems, even though he's not
+                                as powerful -- or smart -- as fellow group members Garnet, Amethyst and Pearl. Despite
+                                his shortcomings, Steven usually
+                                finds a surprising way to save the day.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l3">
+                    <div class="card hoverable">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/index/looneytunes.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4 truncate">
+                                <i class="material-icons right">more_vert</i>
+                                Looney Tunes
+                            </span>
+                        </div>
+                        <div class="card-action">
+                            <a href="#" class="center">
+                                <h6>Watch Now</h6>
+                            </a>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4 truncate">
+                                <i class="material-icons right">close</i>
+                                Looney Tunes
+                            </span>
+                            <p>
+                                Looney Tunes is an American animated comedy short film series produced and distributed
+                                by
+                                Warner Bros. The series
+                                originally ran from 1930 to 1969, concurrently with its partner series Merrie Melodies,
+                                during the golden age of
+                                American animation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <br><br><br><br>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer primary">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <a href="index.html" class="white-text">
+                        <h5>CartoonFlix</h5>
+                    </a>
+                    <p class="grey-text text-lighten-4">A FREE cartoon streaming website created by One.Opt. A project
+                        presented to The Technical Education and Skills Development Authority (TESDA) for Creative Web
+                        Design Batch 14, spearheaded by Telecall Laguna.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i
+                                    class="fa-brands fa-facebook small"></i></a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-youtube small"></i></a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-github small"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2023 One.Opt
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CartoonFlix - Phineas and Ferb</title>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/39c1e8bf9f.js" crossorigin="anonymous"></script>
+    <!-- Fontawesome cdjns -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="primary" style="padding: 0;">
+        <div class="container">
+            <div class="navbar-fixed">
+                <a href="index.html" class="brand-logo left"><span>CartoonFlix</span></a>
+                <!-- Sidenav Trigger -->
+                <a href="#" data-target="sidenavOpen" class="sidenav-trigger right"><i class="fa-solid fa-bars"></i></a>
+                <ul class="right hide-on-med-and-down">
+                    <!-- Modal Trigger -->
+                    <li><a href="#modal1" class="modal-trigger"><i class="material-icons">search</i></a></li>
+                    <li><a href="#account"><i class="material-icons">account_circle</i></a></li>
+                </ul>
+            </div>
+
+            <!-- Sidenav Content -->
+            <ul class="sidenav primary" id="sidenavOpen">
+                <div class="container mt-2">
+                    <li>
+                        <a href="#account" class="white-text">
+                            <i class="material-icons white-text">account_circle</i>
+                            Login/Sign-Up
+                        </a>
+                    </li>
+                    <li>
+                        <!-- Modal Trigger -->
+                        <a href="#modal1" class="white-text modal-trigger">
+                            <i class="material-icons white-text">search</i>
+                            Search
+                        </a>
+                    </li>
+                </div>
+            </ul>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <div class="modal-content black-text">
+                    <div class="input-field">
+                        <i class='material-icons prefix'>search</i>
+                        <input id="icon_prefix" type="text" placeholder="Search Cartoons">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- star parallax -->
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/parallax/starwarBanner.jpg">
+        </div>
+    </div>
+
+    <!-- Star Content -->
+    <div class="star">
+        <!-- star iframe -->
+        <div class="container">
+            <h3 class="truncate white-text">Star War Rebels</h3>
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1FTCT9rRvFg73aSgWGRrqhi7tAk529j2l/preview" width="100%"
+                    height="720" allow="autoplay" allowfullscreen>
+                </iframe>
+            </div>
+            <br>
+        </div>
+
+        <!-- Star Episodes -->
+        <div class="container">
+            <!-- Season Dropdown Trigger -->
+            <div class="row">
+                <div class="col s6">
+                    <a class='dropdown-trigger btn white black-text' href='#' data-target='dropdown1'>
+                        <i class="material-icons right">arrow_drop_down</i>
+                        Season 1
+                    </a>
+                </div>
+                <div class="col s6 hide">
+                    <a class='btn-flat black-text right' href='#' data-target='dropdown1'>
+                        <i class="material-icons center">keyboard_arrow_right</i>
+                    </a>
+                    <a class='btn-flat black-text right' href='#' data-target='dropdown1'>
+                        <i class="material-icons center">keyboard_arrow_left</i>
+                    </a>
+                </div>
+            </div>
+            <!-- Season Dropdown Structure -->
+            <ul id='dropdown1' class='dropdown-content'>
+                <li><a href="#!" class="black-text">Season 1</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#!" class="black-text">Season 2</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#!" class="black-text">Season 3</a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li><a href="#!" class="black-text">Season 4</a></li>
+            </ul>
+            <!-- Star Episodes -->
+            <div class="row">
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 1
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 2
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 3
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 4
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 5
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 6
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 7
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 8
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 9
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 10
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 11
+                    </a>
+                </div>
+                <div class="col s4 m2">
+                    <a href="#" class="black-text">
+                        <img src="img/index/StarWars.jpg" class="responsive-img">
+                        Episode 12
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spacing -->
+    <div style="height: 1100px;"></div>
+
+    <!-- Footer -->
+    <footer class="page-footer primary">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">CartoonFlix</h5>
+                    <p class="grey-text text-lighten-4">A FREE cartoon streaming website created by One.Opt. A project
+                        presented to The Technical Education and Skills Development Authority (TESDA) for Creative Web
+                        Design Batch 14, spearheaded by Telecall Laguna.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i
+                                    class="fa-brands fa-facebook small"></i></a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-youtube small"></i></a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3" href="#!"><i class="fa-brands fa-github small"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2023 One.Opt
+            </div>
+        </div>
+    </footer>
+
+    <!-- Compiled and minified JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="javascript/index.js"></script>
+</body>
+
+</html>
